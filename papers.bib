@@ -169,6 +169,16 @@
 }
 
 
+@COMMENT{ ISCA________________________________________________________________,
+}
+
+@inproceedings{roesch:snort,
+  crossref = {lisa99},
+  author = {Martin Roesch},
+  title = {Snort - Lightweight Intrusion Detection for Networks},
+}
+
+
 @COMMENT{ MSPC________________________________________________________________,
 }
 
@@ -406,6 +416,12 @@
   title = {{Storm@Twitter}},
 }
 
+@inproceedings{kulkarni:heron,
+ crossref = {sigmod15},
+ author = {Kulkarni, Sanjeev and Bhagat, Nikunj and Fu, Maosong and Kedigehalli, Vikas and Kellogg, Christopher and Mittal, Sailesh and Patel, Jignesh M. and Ramasamy, Karthik and Taneja, Siddarth},
+ title = {Twitter {Heron}: Stream Processing at Scale},
+}
+
 
 @COMMENT{ SOSP________________________________________________________________,
 }
@@ -591,6 +607,18 @@
 @COMMENT{ SIGCOMM_CCR__________________________________________________________,
 }
 
+@article{mckeown:openflow,
+  crossref = {sigcommccr},
+  author = {McKeown, Nick and Anderson, Tom and Balakrishnan, Hari and Parulkar, Guru and Peterson, Larry and Rexford, Jennifer and Shenker, Scott and Turner, Jonathan},
+  title = {OpenFlow: Enabling Innovation in Campus Networks},
+  issue_date = {April 2008},
+  volume = 38,
+  number = 2,
+  month = mar,
+  year = 2008,
+  pages = {69--74},
+}
+
 @article{bosshart:p4,
   crossref = {sigcommccr},
   author = {Bosshart, Pat and Daly, Dan and Gibb, Glen and Izzard, Martin and McKeown, Nick and Rexford, Jennifer and Schlesinger, Cole and Talayco, Dan and Vahdat, Amin and Varghese, George and Walker, David},
@@ -667,6 +695,21 @@
 @COMMENT{ RFCS_________________________________________________________________,
 }
 
+@misc{rfc:dccp,
+  author = {E. Kohler and M. Handley and S. Floyd},
+  title = {Datagram Congestion Control Protocol ({DCCP})},
+  month = mar,
+  year = 2006,
+  note = {RFC 4340},
+}
+@misc{rfc:dccp_tcpcc,
+  author = {S. Floyd and E. Kohler},
+  title = {Profile for Datagram Congestion Control Protocol ({DCCP}) Congestion Control {ID} 2: {TCP}-like Congestion Control},
+  month = mar,
+  year = 2006,
+  howpublished = {RFC 4341},
+}
+
 @misc{rfc:ecmp,
   author = {C. Hopps},
   title = {Analysis of an Equal-Cost Multi-Path Algorithm},
@@ -696,7 +739,7 @@
 }
 
 @misc{spec:chelsio_toe,
-  author = {Chelsio Communications},
+  author = {{Chelsio Communications}},
   title = {{TCP} Offload at 40{Gbps}},
   year = 2013,
   howpublished = {\url{http://www.chelsio.com/wp-content/uploads/2013/09/TOE-Technical-Brief.pdf}}
@@ -755,7 +798,7 @@
   howpublished = {\url{https://www.netronome.com/media/redactor_files/WP_Programming_with_P4_and_C.pdf}}
 }
 @misc{spec:pci_tph,
-  author = {PCI-SIG},
+  author = {{PCI-SIG}},
   title = {{TLP} Processing Hints},
   month = sep,
   year = 2008,
@@ -771,8 +814,8 @@
   howpublished = {\url{https://www.pcisig.com/specifications/pciexpress/specifications/ECN_Atomic_Ops_080417.pdf}}
 }
 @misc{spec:portals,
-  title = {The {Portals} 4.0.1 Network Programming Interface},
   author = {Brian W. Barrett and Ron Brightwell and Scott Hemmert and Kevin Pedretti and Kyle Wheeler and Keith Underwood and Rolf Riesen and Arthur B. Maccabee and Trammell Hudson},
+  title = {The {Portals} 4.0.1 Network Programming Interface},
   organization = {Sandia National Laboratories},
   edition = {SAND2013-3181},
   month = apr,
@@ -780,12 +823,12 @@
   howpublished = {\url{http://www.cs.sandia.gov/Portals/portals401.pdf}},
 }
 @misc{spec:rdma_tcpip,
-  title = {Architectural specifications for {RDMA} over {TCP/IP}},
   author = {{RDMA Consortium}},
+  title = {Architectural specifications for {RDMA} over {TCP/IP}},
   howpublished = {\url{http://www.rdmaconsortium.org/}}
 }
 @misc{spec:spdy,
-  author = {Google},
+  author = {{Google}},
   title = {{SPDY}: An experimental protocol for a faster web},
   howpublished = {\url{http://www.chromium.org/spdy/spdy-whitepaper}}
 }
