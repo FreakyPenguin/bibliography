@@ -12,6 +12,11 @@
   author = {Gibb, Glen and Varghese, George and Horowitz, Mark and McKeown, Nick},
   title = {Design Principles for Packet Parsers},
 }
+@inproceedings{li:gamt,
+  crossref = {ancs13},
+  author = {Li, Yanbiao and Zhang, Dafang and Liu, Alex X. and Zheng, Jintao},
+  title = {{GAMT}: A Fast and Scalable {IP} Lookup Engine for {GPU}-based Software Routers},
+}
 @inproceedings{sun:snap,
   crossref = {ancs13},
   author = {Sun, Weibin and Ricci, Robert},
@@ -34,6 +39,11 @@
   title = {Integrated Network Interfaces for High-bandwidth {TCP/IP}},
 }
 
+@inproceedings{agrawal:rhythm,
+  crossref = {asplos14},
+  author = {Agrawal, Sandeep R. and Pistol, Valentin and Pang, Jun and Tran, John and Tarjan, David and Lebeck, Alvin R.},
+  title = {{Rhythm}: Harnessing Data Parallel Hardware for Server Workloads},
+}
 @inproceedings{novakovic:sonuma,
   crossref = {asplos14},
   author = {Novakovic, Stanko and Daglis, Alexandros and Bugnion, Edouard and Falsafi, Babak and Grot, Boris},
@@ -176,6 +186,12 @@
   title = {Arsenic: A User-Accessible {Gigabit} {Ethernet} Interface},
 }
 
+@inproceedings{zhao:gpu_routing,
+  crossref = {infocom11},
+  author={J. Zhao and X. Zhang and X. Wang and Y. Deng and X. Fu},
+  title={Exploiting graphics processors for high-performance {IP} lookup in software routers},
+}
+
 
 @COMMENT{ IGSC_IGCC___________________________________________________________,
 }
@@ -280,12 +296,22 @@
   author = {Dong, Mo and Li, Qingxi and Zarchy, Doron and Godfrey, P. Brighten and Schapira, Michael},
   title = {{PCC}: Re-architecting Congestion Control for Consistent High Performance},
 }
+@inproceedings {kalia:gpupproc,
+  crossref = {nsdi15},
+  author = {Anuj Kalia and Dong Zhou and Michael Kaminsky and David G. Andersen},
+  title = {Raising the Bar for Using {GPU}s in Software Packet Processing},
+}
 @inproceedings{pfaff:openvswitch_nsdi,
   crossref = {nsdi15},
   author = {Ben Pfaff and Justin Pettit and Teemu Koponen and Ethan Jackson and Andy Zhou and Jarno Rajahalme and Jesse Gross and Alex Wang and Joe Stringer and Pravin Shelar and Keith Amidon and Martin Casado},
   title = {The Design and Implementation of {Open} {vSwitch}},
 }
 
+@inproceedings {go:apunet,
+  crossref = {nsdi17},
+  author = {Younghwan Go and Muhammad Asim Jamshed and YoungGyoun Moon and Changho Hwang and KyoungSoo Park},
+  title = {APUNet: Revitalizing {GPU} as Packet Processing Accelerator},
+}
 @inproceedings {perry:flowtune,
   crossref = {nsdi17},
   author = {Jonathan Perry and Hari Balakrishnan and Devavrat Shah},
@@ -542,11 +568,18 @@
   title = {The Scalable Commutativity Rule: Designing Scalable Software for Multicore Processors},
 }
 
+@inproceedings{li:kvdirect,
+  crossref = {sosp17},
+  author = {Li, Bojie and Ruan, Zhenyuan and Xiao, Wencong and Lu, Yuanwei and Xiong, Yongqiang and Putnam, Andrew and Chen, Enhong and Zhang, Lintao},
+  title = {KV-Direct: High-Performance In-Memory Key-Value Store with Programmable NIC},
+}
 @inproceedings{prekas:zygos,
   crossref = {sosp17},
   author = {Prekas, George and Kogias, Marios and Bugnion, Edouard},
   title = {{ZygOS}: Achieving Low Tail Latency for Microsecond-scale Networked Tasks},
 }
+
+
 
 
 @COMMENT{ SUPERCOMPUTING_______________________________________________________,
@@ -572,10 +605,33 @@
 @COMMENT{ USENIX_ATC___________________________________________________________,
 }
 
+@inproceedings{joubert:afpa,
+  crossref = {usenixatc01},
+  author = {Joubert, Philippe and King, Robert B. and Neves, Richard and Russinovich, Mark and Tracey, John M.},
+  title = {High-Performance Memory-Based Web Servers: Kernel and User-Space Performance},
+}
+@inproceedings{lemon:kqueue,
+  crossref = {usenixatc01},
+  author = {Lemon, Jonathan},
+  title = {{Kqueue} - A Generic and Scalable Event Notification Facility},
+}
+
+@inproceedings{elmeleegy:laio,
+  crossref = {usenixatc04},
+  author = {Elmeleegy, Khaled and Chanda, Anupam and Cox, Alan L. and Zwaenepoel, Willy},
+  title = {Lazy Asynchronous I/O for Event-driven Servers},
+}
+
 @inproceedings{menon:tso,
   crossref = {usenixatc08},
   author = {Menon, Aravind and Zwaenepoel, Willy},
   title = {Optimizing {TCP} Receive Performance},
+}
+
+@inproceedings {rizzo:netmap,
+  crossref = {usenixatc12},
+  author = {Luigi Rizzo},
+  title = {netmap: A Novel Framework for Fast Packet {I}/{O}},
 }
 
 @inproceedings{flajslik:llnic,
@@ -587,6 +643,12 @@
   crossref = {usenixatc13},
   author = {Mitchell, Christopher and Geng, Yifeng and Li, Jinyang},
   title = {Using One-sided {RDMA} Reads to Build a Fast, {CPU}-efficient Key-value Store},
+}
+
+@inproceedings{vasiliadis:gaspp,
+  crossref = {usenixatc14},
+  author = {Giorgos Vasiliadis and Lazaros Koromilas and Michalis Polychronakis and Sotiris Ioannidis},
+  title = {{GASPP}: A GPU-Accelerated Stateful Packet Processing Framework},
 }
 
 
@@ -818,8 +880,26 @@
   year = 1984,
   number = {TR-301},
 }
+@techreport{tr:kapoor:chronos,
+  author = {Rishi Kapoor and George Porter and Malveeka Tewari and Geoffrey M. Voelker and  Amin Vahdat},
+  title = {Reducing Datacenter Application Latency with Endhost {NIC} Support},
+  institution = {CSE Department, University of California, San Diego},
+  year = 2012,
+  month = apr,
+  number = {CS2012-0977},
+}
 
 
+@COMMENT{ THESES_______________________________________________________________,
+}
+
+@phdthesis{thesis:shinde:dragonet,
+  author = {Pravin Shinde},
+  title = {Rethinking host network stack architecture using a dataflow modeling approach},
+  school = {{ETH} Z\"{u}rich},
+  year = 2016,
+  month = may,
+}
 
 
 
