@@ -114,6 +114,15 @@
   title = {{LLVM}: A Compilation Framework for Lifelong Program Analysis \& Transformation},
 }
 
+@COMMENT{ CONEXT______________________________________________________________,
+}
+
+@inproceedings{tazaki:dce,
+  crossref = {conext13},
+  author = {Tazaki, Hajime and Uarbani, Fr\'{e}d\'{e}ric and Mancini, Emilio and Lacage, Mathieu and Camara, Daniel and Turletti, Thierry and Dabbous, Walid},
+  title = {Direct Code Execution: Revisiting Library {OS} Architecture for Reproducible Network Experiments},
+}
+
 
 @COMMENT{ DAC_________________________________________________________________,
 }
@@ -249,6 +258,12 @@
   crossref = {hotnets09},
   author = {Ben Pfaff and Justin Pettit and Keith Amidon and Martin Casado and Teemu Koponen and Scott Shenker},
   title = {Extending Networking into the Virtualization Layer},
+}
+
+@inproceedings{lantz:mininet,
+  crossref = {hotnets10},
+  author = {Lantz, Bob and Heller, Brandon and McKeown, Nick},
+  title = {A Network in a Laptop: Rapid Prototyping for Software-Defined Networks},
 }
 
 @inproceedings{narayan:ccp,
@@ -396,6 +411,12 @@
   crossref ={isca11},
   author = {Esmaeilzadeh, Hadi and Blem, Emily and St. Amant, Renee and Sankaralingam, Karthikeyan and Burger, Doug},
   title = {Dark Silicon and the End of Multicore Scaling},
+}
+
+@inproceedings{sanchez:zsim,
+  crossref = {isca13},
+  author = {Sanchez, Daniel and Kozyrakis, Christos},
+  title = {{ZSim}: Fast and Accurate Microarchitectural Simulation of Thousand-Core Systems},
 }
 
 @inproceedings{putnam:catapult,
@@ -597,6 +618,11 @@
   crossref = {nsdi20},
   author = {Mina Tahmasbi Arashloo and Alexey Lavrov and Manya Ghobadi and Jennifer Rexford and David Walker and David Wentzlaff},
   title = {Enabling Programmable Transport Protocols in High-Speed {NICs}},
+}
+@inproceedings{kuga:nettlp,
+  crossref = {nsdi20},
+  author = {Yohei Kuga and Ryo Nakamura and Takeshi Matsuya and Yuji Sekiya},
+  title = {{NetTLP}: A Development Platform for {PCIe} devices in Software Interacting with Hardware},
 }
 @inproceedings{moon:acceltcp,
   crossref = {nsdi20},
@@ -897,6 +923,11 @@
   author = {Chole, Sharad and Fingerhut, Andy and Ma, Sha and Sivaraman, Anirudh and Vargaftik, Shay and Berger, Alon and Mendelson, Gal and Alizadeh, Mohammad and Chuang, Shang-Tse and Keslassy, Isaac and Orda, Ariel and Edsall, Tom},
   title = {{dRMT}: Disaggregated Programmable Switching},
 }
+@inproceedings{handley:ndp,
+  crossref = {sigcomm17},
+  author = {Handley, Mark and Raiciu, Costin and Agache, Alexandru and Voinescu, Andrei and Moore, Andrew W. and Antichi, Gianni and W\'{o}jcik, Marcin},
+  title = {Re-Architecting Datacenter Networks and Stacks for Low Latency and High Performance},
+}
 @inproceedings{zhuo:corropt,
   crossref = {sigcomm17},
   author = {Zhuo, Danyang and Ghobadi, Monia and Mahajan, Ratul and F\"{o}rster, Klaus-Tycho and Krishnamurthy, Arvind and Anderson, Thomas},
@@ -1115,6 +1146,12 @@
   crossref = {usenixatc16},
   author = {Kalia, Anuj and Kaminsky, Michael and Andersen, David G.},
   title = {Design Guidelines for High Performance {RDMA} Systems},
+}
+
+@inproceedings{li:femu,
+  crossref = {usenixatc18},
+  author = {Huaicheng Li and Mingzhe Hao and Michael Hao Tong and Swaminathan Sundararaman and Matias Bj{\o}rling and Haryadi S. Gunawi},
+  title = {The {CASE} of {FEMU}: Cheap, Accurate, Scalable and Extensible Flash Emulator},
 }
 
 @inproceedings{kogias:r2p2,
@@ -1484,6 +1521,17 @@
 
 
 @COMMENT{ SIGARCH_CAN__________________________________________________________,
+}
+
+@article{chen:slacksim,
+  crossref = {sigarchcan},
+  author = {Chen, Jianwei and Annavaram, Murali and Dubois, Michel},
+  title = {{SlackSim}: A Platform for Parallel Simulations of {CMPs} on {CMPs}},
+  issue_date = {May 2009},
+  volume = {37},
+  number = {2},
+  month = jul,
+  year = {2009},
 }
 
 @article{binkert:gem5,
@@ -2019,9 +2067,12 @@
 }
 
 @misc{software:dpdk,
-  key = {Intel DPDK},
-  title = {Intel Data Plane Development Kit},
-  howpublished = {\url{http://www.dpdk.org/}}
+  key = {DPDK},
+  author = {{DPDK Project}},
+  title = {Data Plane Development Kit},
+  year = 2022,
+  howpublished = {\url{http://www.dpdk.org/}},
+  note = {Retrieved Feb 2, 2022},
 }
 
 @misc{software:grpc,
@@ -2043,21 +2094,37 @@
 }
 @misc{software:modelsim,
   key = {modelsim},
-  title = {{ModelSim} {ASIC} and {FPGA} Design -- {Mentor} {Graphics}},
-  howpublished = {\url{https://www.mentor.com/products/fv/modelsim/}}
+  author = {Siemens},
+  title = {{ModelSim} {HDL} Simulator},
+  year = 2022,
+  howpublished = {\url{https://eda.sw.siemens.com/en-US/ic/modelsim/}},
+  note = {Retrieved Feb 2, 2022},
 }
 
 @misc{software:ns2,
   key = {ns-2},
+  author = {{ns-2 Authors}},
   title = {The Network Simulator - ns-2},
-  howpublished = {\url{https://www.isi.edu/nsnam/ns/}}
+  year = 2022,
+  howpublished = {\url{https://www.isi.edu/nsnam/ns/}},
+  note = {Retrieved Feb 2, 2022},
 }
 @misc{software:ns3,
   key = {ns-3},
+  author = {nsnam},
   title = {ns-3 | a discrete-event network simulator for internet systems},
-  howpublished = {\url{https://www.nsnam.org/}}
+  year = 2022,
+  howpublished = {\url{https://www.nsnam.org/}},
+  note = {Retrieved Feb 2, 2022},
 }
-
+@misc{software:omnetinet,
+  key = {inet},
+  author = {{INET Authors}},
+  title = {{INET} Framework},
+  year = 2022,
+  howpublished = {\url{https://inet.omnetpp.org/}},
+  note = {Retrieved Feb 2, 2022},
+}
 @misc{software:redis,
   key = {redis},
   title = {Redis},
@@ -2069,10 +2136,21 @@
   howpublished = {\url{https://github.com/linux-rdma/rdma-core/blob/master/librdmacm/docs/rsocket}},
 }
 
+@misc{software:p4studio,
+  author = {{Intel Corporation}},
+  title = {{Intel} {P4} Studio},
+  year = 2022,
+  howpublished = {\url{https://www.intel.com/content/www/us/en/products/network-io/programmable-ethernet-switch/p4-suite/p4-studio.html}},
+  note = {Retrieved Feb 2, 2022},
+}
+
 @misc{software:qemu,
   key = {qemu},
+  author = {{QEMU Authors}},
   title = {{QEMU} -- the {FAST}! processor emulator},
-  howpublished = {\url{https://www.qemu.org/}}
+  year = 2022,
+  howpublished = {\url{https://www.qemu.org/}},
+  note = {Retrieved Feb 2, 2022},
 }
 @misc{software:questa,
   author = {{Mentor}},
@@ -2082,13 +2160,18 @@
 
 @misc{software:verilator,
   key = {verilator},
+  author = {Wilson Snyder},
   title = {{Verilator} -- the fastest Verilog {HDL} simulator},
-  howpublished = {\url{https://www.veripool.org/wiki/verilator}}
+  year = 2022,
+  howpublished = {\url{https://www.veripool.org/wiki/verilator}},
+  note = {Retrieved Feb 2, 2022},
 }
 @misc{software:vivado_sim,
   author = {{Xilinx}},
-  title = {{Vivado} Simulator},
-  howpublished = {\url{https://www.xilinx.com/products/design-tools/vivado/simulator.html}}
+  title = {{Vivado} 2021.2 Logic Simulation},
+  year = 2022,
+  howpublished = {\url{https://www.xilinx.com/support/documentation-navigation/design-hubs/dh0010-vivado-simulation-hub.html}},
+  note = {Retrieved Feb 2, 2022},
 }
 
 @misc{software:linux:nfsrdma,
@@ -2104,12 +2187,6 @@
   author = {{Amazon Web Services}},
   title = {{AWS} {Lambda} -- Serverless Compute},
   howpublished = {\url{https://aws.amazon.com/lambda/}},
-}
-
-@misc{product:barefoot:tofino,
-  author = {{Barefoot Networks}},
-  title = {{Barefoot} {Tofino}},
-  howpublished = {\url{https://barefootnetworks.com/products/product-brief-tofino/}},
 }
 
 @misc{product:cavium:octeon,
@@ -2133,6 +2210,14 @@
   author = {{IBM Corporation}},
   title = {{Cloud} {Functions} -- Overview},
   howpublished = {\url{https://www.ibm.com/cloud/functions}},
+}
+
+@misc{product:intel:tofino,
+  author = {{Intel Corporation}},
+  title = {{Intel} {Tofino} Series Programmable Switch {ASIC}},
+  year = 2022,
+  howpublished = {\url{https://www.intel.com/content/www/us/en/products/network-io/programmable-ethernet-switch/tofino-series.html}},
+  note = {Retrieved Feb 2, 2022},
 }
 
 @misc{product:netronome:nfp6,
