@@ -171,6 +171,16 @@
 }
 
 
+@COMMENT{ DATE_________________________________________________________________,
+}
+
+@inproceedings{katrinis:dredbox,
+  crossref = {date16},
+  author = {Katrinis, K. and Syrivelis, D. and Pnevmatikatos, D. and Zervas, G. and Theodoropoulos, D. and Koutsopoulos, I. and Hasharoni, K. and Raho, D. and Pinto, C. and Espina, F. and Lopez-Buedo, S. and Chen, Q. and Nemirovsky, M. and Roca, D. and Klos, H. and Berends, T.},
+  title = {Rack-Scale Disaggregated Cloud Data Centers: The {DReDBox} Project Vision},
+}
+
+
 @COMMENT{ DEVS________________________________________________________________,
 }
 @inproceedings{ciraci:fncs,
@@ -211,6 +221,11 @@
   title = {{TAS}: {TCP} Acceleration as an {OS} Service},
 }
 
+@inproceedings{amaro:fastswap,
+  crossref = {eurosys20},
+  author = {Amaro, Emmanuel and Branner-Augmon, Christopher and Luo, Zhihong and Ousterhout, Amy and Aguilera, Marcos K. and Panda, Aurojit and Ratnasamy, Sylvia and Shenker, Scott},
+  title = {Can Far Memory Improve Job Throughput?},
+}
 @inproceedings{sidler:strom,
   crossref = {eurosys20},
   author = {Sidler, David and Wang, Zeke and Chiosa, Monica and Kulkarni, Amit and Alonso, Gustavo},
@@ -227,6 +242,16 @@
   crossref = {eurosys22},
   author = {Vilanova, Llu\'{\i}s and Maudlej, Lina and Bergman, Shai and Miemietz, Till and Hille, Matthias and Asmussen, Nils and Roitzsch, Michael and H\"{a}rtig, Hermann and Silberstein, Mark},
   title = {Slashing the Disaggregation Tax in Heterogeneous Data Centers with {FractOS}},
+}
+
+
+@COMMENT{ FAST________________________________________________________________,
+}
+
+@inproceedings{wang:concordia,
+  crossref = {fast21},
+  author = {Qing Wang and Youyou Lu and Erci Xu and Junru Li and Youmin Chen and Jiwu Shu},
+  title = {{Concordia}: Distributed Shared Memory with In-Network Cache Coherence},
 }
 
 
@@ -364,6 +389,16 @@
   crossref = {hotos17},
   author = {Koller, Ricardo and Williams, Dan},
   title = {Will Serverless End the Dominance of {Linux} in the Cloud?},
+}
+
+
+@COMMENT{ HOTOS_______________________________________________________________,
+}
+
+@inproceedings{legtchenko:rackscalestorage,
+  crossref = {hotstorage17},
+  author = {Sergey Legtchenko and Hugh Williams and Kaveh Razavi and Austin Donnelly and Richard Black and Andrew Douglas and Nathanael Cheriere and Daniel Fryer and Kai Mast and Angela Demke Brown and Ana Klimovic and Andy Slowey and Antony Rowstron},
+  title = {Understanding Rack-Scale Disaggregated Storage},
 }
 
 
@@ -542,7 +577,17 @@
 }
 
 
-@COMMENT{ MSPC________________________________________________________________,
+@COMMENT{ MEMSYS_______________________________________________________________,
+}
+
+@inproceedings{kommareddy:disaggnvmemigration,
+  crossref = {memsys19},
+  author = {Kommareddy, Vamsee Reddy and Hammond, Simon David and Hughes, Clayton and Samih, Ahmad and Awad, Amro},
+  title = {Page Migration Support for Disaggregated Non-Volatile Memories},
+}
+
+
+@COMMENT{ MICRO________________________________________________________________,
 }
 
 @inproceedings{alian:netdimm,
@@ -550,6 +595,13 @@
   author = {Alian, Mohammad and Kim, Nam Sung},
   title = {{NetDIMM}: Low-Latency Near-Memory Network Interface Architecture},
 }
+
+@inproceedings{pinto:thymesisflow,
+  crossref = {micro20},
+  author = {Pinto, Christian and Syrivelis, Dimitris and Gazzetti, Michele and Koutsovasilis, Panos and Reale, Andrea and Katrinis, Kostas and Hofstee, H. Peter},
+  title = {{ThymesisFlow}: A Software-Defined, {HW/SW} co-Designed Interconnect Stack for Rack-Scale Memory Disaggregation},
+}
+
 
 
 @COMMENT{ MSPC________________________________________________________________,
@@ -640,6 +692,11 @@
   author = {Younghwan Go and Muhammad Asim Jamshed and YoungGyoun Moon and Changho Hwang and KyoungSoo Park},
   title = {APUNet: Revitalizing {GPU} as Packet Processing Accelerator},
 }
+@inproceedings {gu:infiniswap,
+  crossref = {nsdi17},
+  author = {Juncheng Gu and Youngmoon Lee and Yiwen Zhang and Mosharaf Chowdhury and Kang G. Shin},
+  title = {Efficient Memory Disaggregation with {Infiniswap}},
+}
 @inproceedings {perry:flowtune,
   crossref = {nsdi17},
   author = {Jonathan Perry and Hari Balakrishnan and Devavrat Shah},
@@ -681,6 +738,11 @@
   crossref = {nsdi19},
   author = {Anuj Kalia and Michael Kaminsky and David Andersen},
   title = {Datacenter {RPCs} can be General and Fast},
+}
+@inproceedings{shrivastav:shoal,
+  crossref = {nsdi19},
+  author = {Vishal Shrivastav and Asaf Valadarsky and Hitesh Ballani and Paolo Costa and Ki Suh Lee and Han Wang and Rachit Agarwal and Hakim Weatherspoon},
+  title = {Shoal: A Network Architecture for Disaggregated Racks},
 }
 
 @inproceedings{arashloo:tonic,
@@ -843,11 +905,41 @@
   author = {Jiaxin Lin and Kiran Patel and Brent E. Stephens and Anirudh Sivaraman and Aditya Akella},
   title = {{PANIC}: A High-Performance Programmable {NIC} for Multi-tenant Networks},
 }
+@inproceedings{ruan:aifm,
+  crossref = {osdi20},
+  author = {Zhenyuan Ruan and Malte Schwarzkopf and Marcos K. Aguilera and Adam Belay},
+  title = {{AIFM}: High-Performance, Application-Integrated Far Memory},
+}
+@inproceedings{wang:semeru,
+  crossref = {osdi20},
+  author = {Chenxi Wang and Haoran Ma and Shi Liu and Yuanqi Li and Zhenyuan Ruan and Khanh Nguyen and Michael D. Bond and Ravi Netravali and Miryung Kim and Guoqing Harry Xu},
+  title = {{Semeru}: A Memory-Disaggregated Managed Runtime},
+}
 
 @inproceedings {ibanez:nanopu,
   crossref = {osdi21},
   author = {Stephen Ibanez and Alex Mallery and Serhat Arslan and Theo Jepsen and Muhammad Shahbaz and Changhoon Kim and Nick McKeown},
   title = {The {nanoPU}: A Nanosecond Network Stack for Datacenters},
+}
+
+
+@COMMENT{ PACT________________________________________________________________,
+}
+
+@inproceedings{jo:rackmem,
+  crossref = {pact20},
+  author = {Jo, Changyeon and Kim, Hyunik and Geng, Hexiang and Egger, Bernhard},
+  title = {{RackMem}: A Tailored Caching Layer for Rack Scale Computing},
+}
+
+
+@COMMENT{ PLDI________________________________________________________________,
+}
+
+@inproceedings {luk:pin,
+  crossref = {pldi05},
+  author = {Luk, Chi-Keung and Cohn, Robert and Muth, Robert and Patil, Harish and Klauser, Artur and Lowney, Geoff and Wallace, Steven and Reddi, Vijay Janapa and Hazelwood, Kim},
+  title = {{Pin}: Building Customized Program Analysis Tools with Dynamic Instrumentation},
 }
 
 
@@ -1120,6 +1212,12 @@
   title = {{U-Net}: a user-level network interface for parallel and distributed computing},
 }
 
+@inproceedings{barham:xen,
+  crossref = {sosp03},
+  author = {Barham, Paul and Dragovic, Boris and Fraser, Keir and Hand, Steven and Harris, Tim and Ho, Alex and Neugebauer, Rolf and Pratt, Ian and Warfield, Andrew},
+  title = {{Xen} and the Art of Virtualization},
+}
+
 @inproceedings{baumann:barrelfish,
   crossref = {sosp09},
   author = {Baumann, Andrew and Barham, Paul and Dagand, Pierre-Evariste and Harris, Tim and Isaacs, Rebecca and Peter, Simon and Roscoe, Timothy and Sch\"{u}pbach, Adrian and Singhania, Akhilesh},
@@ -1262,6 +1360,11 @@ title = {{Windows} {Azure} {Storage}: A Highly Available Cloud Storage Service w
   crossref = {usenixatc19},
   author = {Nils Asmussen and Michael Roitzsch and Hermann H{\"a}rtig},
   title = {{M{\textthreesuperior}x}: Autonomous Accelerators via {Context-Enabled} {Fast-Path} Communication},
+}
+@inproceedings{eran:nica,
+  crossref = {usenixatc19},
+  author = {Haggai Eran and Lior Zeno and Maroun Tork and Gabi Malka and Mark Silberstein},
+  title = {{NICA}: An Infrastructure for Inline Acceleration of Network Applications},
 }
 
 @inproceedings{kogias:r2p2,
